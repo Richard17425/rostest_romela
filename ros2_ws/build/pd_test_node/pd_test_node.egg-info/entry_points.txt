@@ -1,0 +1,2 @@
+[console_scripts]
+midlevel_planner_node = my_midlevel_node.midlevel_planner_node:main

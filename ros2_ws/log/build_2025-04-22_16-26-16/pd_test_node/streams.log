@@ -1,0 +1,27 @@
+[0.661s] Invoking command in '/home/ruiqimao/Desktop/rostest/ros2_ws/src/pd_test_node': PS1=(envtest) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pd_test_node build --build-base /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build install --record /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log --install_scripts $base/lib/pd_test_node --single-version-externally-managed install_data
+[0.795s] /home/ruiqimao/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.795s]   warnings.warn(msg)
+[0.889s] running egg_info
+[0.903s] writing ../../build/pd_test_node/pd_test_node.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/pd_test_node/pd_test_node.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../../build/pd_test_node/pd_test_node.egg-info/entry_points.txt
+[0.904s] writing requirements to ../../build/pd_test_node/pd_test_node.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/pd_test_node/pd_test_node.egg-info/top_level.txt
+[1.016s] reading manifest file '../../build/pd_test_node/pd_test_node.egg-info/SOURCES.txt'
+[1.017s] writing manifest file '../../build/pd_test_node/pd_test_node.egg-info/SOURCES.txt'
+[1.018s] running build
+[1.018s] running build_py
+[1.018s] copying pd_test_node/__init__.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node
+[1.018s] copying pd_test_node/pd_topic_test.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node
+[1.018s] running install
+[1.023s] running install_lib
+[1.038s] running install_data
+[1.039s] copying resource/pd_test_node -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/share/ament_index/resource_index/packages
+[1.039s] copying package.xml -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/share/pd_test_node
+[1.039s] running install_egg_info
+[1.055s] removing '/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node-0.0.0-py3.8.egg-info' (and everything under it)
+[1.055s] Copying ../../build/pd_test_node/pd_test_node.egg-info to /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node-0.0.0-py3.8.egg-info
+[1.056s] running install_scripts
+[1.092s] Installing midlevel_planner_node script to /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/pd_test_node
+[1.092s] writing list of installed files to '/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log'
+[1.110s] Invoked command in '/home/ruiqimao/Desktop/rostest/ros2_ws/src/pd_test_node' returned '0': PS1=(envtest) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pd_test_node build --build-base /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build install --record /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log --install_scripts $base/lib/pd_test_node --single-version-externally-managed install_data

@@ -1,0 +1,42 @@
+[0.654s] Invoking command in '/home/ruiqimao/Desktop/rostest/ros2_ws/src/pd_test_node': PS1=(envtest) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pd_test_node build --build-base /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build install --record /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log --install_scripts $base/lib/pd_test_node --single-version-externally-managed install_data
+[0.771s] /home/ruiqimao/.local/lib/python3.8/site-packages/setuptools/dist.py:495: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.771s] !!
+[0.771s] 
+[0.772s]         ********************************************************************************
+[0.772s]         Usage of dash-separated 'script_dir' will not be supported in future
+[0.772s]         versions. Please use the underscore name 'script_dir' instead.
+[0.772s] 
+[0.772s]         This deprecation is overdue, please update your project and remove deprecated
+[0.772s]         calls to avoid build errors in the future.
+[0.772s] 
+[0.772s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.772s]         ********************************************************************************
+[0.772s] 
+[0.772s] !!
+[0.772s]   opt = self.warn_dash_deprecation(opt, section)
+[0.786s] /home/ruiqimao/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.786s]   warnings.warn(msg)
+[0.878s] running egg_info
+[0.893s] writing ../../build/pd_test_node/pd_test_node.egg-info/PKG-INFO
+[0.893s] writing dependency_links to ../../build/pd_test_node/pd_test_node.egg-info/dependency_links.txt
+[0.893s] writing entry points to ../../build/pd_test_node/pd_test_node.egg-info/entry_points.txt
+[0.893s] writing requirements to ../../build/pd_test_node/pd_test_node.egg-info/requires.txt
+[0.893s] writing top-level names to ../../build/pd_test_node/pd_test_node.egg-info/top_level.txt
+[1.004s] reading manifest file '../../build/pd_test_node/pd_test_node.egg-info/SOURCES.txt'
+[1.007s] writing manifest file '../../build/pd_test_node/pd_test_node.egg-info/SOURCES.txt'
+[1.007s] running build
+[1.007s] running build_py
+[1.007s] copying pd_test_node/__init__.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node
+[1.007s] copying pd_test_node/pd_topic_test.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node
+[1.007s] running install
+[1.012s] running install_lib
+[1.027s] running install_data
+[1.028s] copying resource/pd_test_node -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/share/ament_index/resource_index/packages
+[1.028s] copying package.xml -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/share/pd_test_node
+[1.028s] running install_egg_info
+[1.044s] removing '/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node-0.0.0-py3.8.egg-info' (and everything under it)
+[1.044s] Copying ../../build/pd_test_node/pd_test_node.egg-info to /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node-0.0.0-py3.8.egg-info
+[1.045s] running install_scripts
+[1.081s] Installing midlevel_planner_node script to /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/pd_test_node
+[1.081s] writing list of installed files to '/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log'
+[1.098s] Invoked command in '/home/ruiqimao/Desktop/rostest/ros2_ws/src/pd_test_node' returned '0': PS1=(envtest) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pd_test_node build --build-base /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build install --record /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log --install_scripts $base/lib/pd_test_node --single-version-externally-managed install_data

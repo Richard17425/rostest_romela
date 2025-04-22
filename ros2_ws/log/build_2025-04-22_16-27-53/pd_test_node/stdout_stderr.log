@@ -1,0 +1,27 @@
+/home/ruiqimao/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/pd_test_node/pd_test_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/pd_test_node/pd_test_node.egg-info/dependency_links.txt
+writing entry points to ../../build/pd_test_node/pd_test_node.egg-info/entry_points.txt
+writing requirements to ../../build/pd_test_node/pd_test_node.egg-info/requires.txt
+writing top-level names to ../../build/pd_test_node/pd_test_node.egg-info/top_level.txt
+reading manifest file '../../build/pd_test_node/pd_test_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/pd_test_node/pd_test_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pd_test_node/__init__.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node
+copying pd_test_node/pd_topic_test.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node
+running install
+running install_lib
+copying /home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/build/lib/pd_test_node/pd_topic_test.py -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node
+byte-compiling /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node/pd_topic_test.py to pd_topic_test.cpython-38.pyc
+running install_data
+copying resource/pd_test_node -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/share/pd_test_node
+running install_egg_info
+removing '/home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/pd_test_node/pd_test_node.egg-info to /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/python3.8/site-packages/pd_test_node-0.0.0-py3.8.egg-info
+running install_scripts
+Installing midlevel_planner_node script to /home/ruiqimao/Desktop/rostest/ros2_ws/install/pd_test_node/lib/pd_test_node
+writing list of installed files to '/home/ruiqimao/Desktop/rostest/ros2_ws/build/pd_test_node/install.log'
