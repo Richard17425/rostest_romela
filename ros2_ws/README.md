@@ -8,4 +8,4 @@ source install/setup.bash
 
 python3 src/pd_test_node/pd_test_node/pd_topic_test.py
 or
-src/pd_test_node/pd_test_node/pd_topic_test.py
+src/pd_test_node/pd_test_node/pd_topic_test.

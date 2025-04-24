@@ -17,7 +17,10 @@ setup(
     maintainer_email='1529413416@qq.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    extras_require=['pytest'],
+    # extras_require=['pytest'],
+    extras_require={
+        'test': ['pytest>=6.0'],
+    },
     entry_points={
         'console_scripts': [
             'midlevel_planner_node = my_midlevel_node.midlevel_planner_node:main'

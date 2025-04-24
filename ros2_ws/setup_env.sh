@@ -2,7 +2,7 @@
 
 # Automatically activate Python virtual environment and ROS 2 workspace
 
-cd ~/Desktop/rostest/ros2_ws || exit
+cd ~/Desktop/rostest-main/ros2_ws || exit
 
 # Activate virtual environment if it exists
 if [ -f envtest/bin/activate ]; then
