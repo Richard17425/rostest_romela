@@ -17,7 +17,7 @@ class PdTopicTest(Node):
         self.get_logger().info("Publisher initialized.")
 
         self.my_cur_pose_w = np.array([0.0, 0.0, 0.0])  # or actual starting pose
-        self.dt = 0.01  # or whatever your time step is
+        self.dt = 0.25  # or whatever your time step is
         self.cmd_vel_msg = None  # etc.
 
         # Subscribers
@@ -72,27 +72,7 @@ class PdTopicTest(Node):
         ])
 
         self.my_cur_pose_w = self.my_cur_pose_w + jaco @ vel * self.dt
-        
-        # #player_states2 = self.my_cur_pose_w
-        # # Build 6x5 matrix: 1 robot + 3 enemies + 2 goals
-        # player_states = np.zeros((6, 5), dtype=np.float32)
-        
-        # # Row 0: our robot
-        # player_states[0, :3] = self.my_cur_pose_w
-        # player_states[0, 3] = 1.0  # confidence
-        # player_states[0, 4] = 0.18  # radius, example value
-
-        # Rows 1-3: other robots — dummy data for now
-        # for i in range(1, 4):
-        #     player_states[i, :3] = [1.0 + i, 2.0 + i, 0.0]  # placeholder
-        #     player_states[i, 3] = 0.8  # confidence
-        #     player_states[i, 4] = 0.18
-
-        # # Rows 4-5: goals — dummy data
-        # player_states[4, :2] = [4.5, 0.9]  # goal 1
-        # player_states[4, 3] = 1.0
-        # player_states[5, :2] = [4.5, -0.9]  # goal 2
-        # player_states[5, 3] = 1.0
+        self.my_cur_pose_w[2] = np.arctan2(np.sin(self.my_cur_pose_w[2]), np.cos(self.my_cur_pose_w[2]))  # normalize theta
 
 
         # Publish player_states2
@@ -133,7 +113,7 @@ class PdTopicTest(Node):
         msg.layout.dim.append(dim0)
         msg.layout.dim.append(dim1)
 
-        print('published message:', matrix)
+        print('published message -player_states:', matrix)
         self.player_states2_pub.publish(msg)
 
 

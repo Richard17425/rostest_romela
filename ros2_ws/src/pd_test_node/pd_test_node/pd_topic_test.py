@@ -17,7 +17,7 @@ class PdTopicTest(Node):
         self.get_logger().info("Publisher initialized.")
 
         self.my_cur_pose_w = np.array([0.0, 0.0, 0.0])  # or actual starting pose
-        self.dt = 0.01  # or whatever your time step is
+        self.dt = 0.25  # or whatever your time step is
         self.cmd_vel_msg = None  # etc.
 
         # Subscribers
@@ -72,6 +72,7 @@ class PdTopicTest(Node):
         ])
 
         self.my_cur_pose_w = self.my_cur_pose_w + jaco @ vel * self.dt
+        self.my_cur_pose_w[2] = np.arctan2(np.sin(self.my_cur_pose_w[2]), np.cos(self.my_cur_pose_w[2]))  # normalize theta
 
 
         # Publish player_states2
@@ -112,7 +113,7 @@ class PdTopicTest(Node):
         msg.layout.dim.append(dim0)
         msg.layout.dim.append(dim1)
 
-        print('published message:', matrix)
+        print('published message -player_states:', matrix)
         self.player_states2_pub.publish(msg)
 
 
